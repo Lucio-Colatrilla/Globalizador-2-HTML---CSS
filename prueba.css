@@ -1,0 +1,24 @@
+a {
+    position: relative;
+    text-decoration: none;
+    font-family: "pooppins", sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: tomato;
+    height: 3px;
+    width: 100%;
+    left: 0% bottom:-10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #fff;
+}
+a:hover:after {
+    width: 100%;
+}
